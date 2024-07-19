@@ -356,6 +356,8 @@ svg {
   justify-content: space-around;
 }
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: #3d2b1f;
   color: #fff;
   padding: 60px 0 0 0;
@@ -405,4 +407,13 @@ a {
 svg.Email {
   width: 24px;
   height: 24px;
+}
+h2.Decocenterr {
+  padding: 0 18px;
+}
+
+span.Copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px 20px 0;
 }
